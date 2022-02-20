@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Grade Calculator</title>
+        <link rel="stylesheet" href="./stylesheets/calculator.css">
+    </head>
+        <body>
+            <h1>Grade Calculator</h1><br>
+            <main>
+                <br>
+                <div id="cir">
+                <h2>Activities</h2>
+                Give grades to the numeric activities: <br>
+                <br><br>
+                <table id="container">
+                   <tr id="row1">
+                       <td><strong>Name</strong></td>
+                       <td><strong>Short Name</strong></td>
+                       <td><strong>Weight</strong></td>
+                       <td><strong>Grade</strong></td>
+                       <td><strong>Percent</strong></td>
+                   </tr>
+                   <tr>
+                       <td class="sims">Activity 1</td>
+                       <td class="sims">A2</td>
+                       <td class="sims"><input type="number" name="w"></td>
+                       <td class="sims"><input type="number" name="g" id="g1">/<input type="number" class="gg" name="g1g"></td>
+                       <td class="sims">
+                        <div name="g1g">
+
+                        </div>
+                       </td>
+                   </tr>
+                   <tr>
+                    <td class="sims">Activity 2</td>
+                    <td class="sims">A2</td>
+                    <td class="sims"><input type="number" name="w"></td>
+                    <td class="sims"><input type="number" name="g" id="g2">/<input type="number" class="gg"  name="g2g" ></td>
+                    <td class="sims">
+                        <div name="g2g">
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="sims">Activity 3</td>
+                    <td class="sims">A3</td>
+                    <td class="sims"><input type="number" name="w"></td>
+                    <td class="sims"><input type="number" name="g" id="g3">/<input type="number" class="gg"  name="g3g"></td>
+                    <td class="sims">
+                        <div name="g3g">
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="sims">Activity 4</td>
+                    <td class="sims">A4</td>
+                    <td class="sims"><input type="number" name="w"></td>
+                    <td class="sims"><input type="number" name="g" id="g4">/<input type="number" class="gg"  name="g4g"></td>
+                    <td class="sims">
+                        <div name="g4g">
+
+                        </div>
+                    </td>
+                </tr>
+                </table>
+                <br>
+                <button id="button" type="button" name="add">ADD ACTIVITY</button><br>
+                <br>
+                <div id="Result">
+                    Result
+                </div>
+                <div id="Result1">
+            
+
+                </div>
+                <br>
+                <br>
+                <button id="weighted" type="button" name="weighted">WEIGHTED</button>
+                <button id="mean" type="button" name="mean">MEAN</button>
+                </div>
+            </main>
+            <script type="text/javascript" src="./calculator.js"></script>
+        </body>
+</html>
